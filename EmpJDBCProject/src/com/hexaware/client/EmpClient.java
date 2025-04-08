@@ -13,5 +13,12 @@ public class EmpClient {
 	public static void viewResults() {
 		System.out.println("view result");
 	}
+
+	@Override
+	public String toString() {
+		return "EmpClient [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
 	
 }
